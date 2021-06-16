@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "341954805665",
+    "firebase_url": "https://fir-crud-27399-default-rtdb.firebaseio.com",
+    "project_id": "fir-crud-27399",
+    "storage_bucket": "fir-crud-27399.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341954805665:android:47fd2d54aea153f09015e0",
+        "android_client_info": {
+          "package_name": "com.example.peterpan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341954805665-7dm21o4fviqmj6rf7q1ne185jhe044lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFLRWn9XhvpjFsDunRySN1Sz9H5MV3fD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341954805665-7dm21o4fviqmj6rf7q1ne185jhe044lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

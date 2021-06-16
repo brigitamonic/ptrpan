@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@color/teal_700">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/form_pengajuan"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/et_nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nim"
+            android:inputType="textCapSentences"/>
+        <EditText
+            android:id="@+id/et_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nama"
+            android:inputType="textCapSentences"/>
+        <EditText
+            android:id="@+id/et_namadsn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nama_dosen"
+            android:inputType="textCapSentences"/>
+        <EditText
+            android:id="@+id/et_matkul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/matakuliah"
+            android:inputType="textCapSentences"/>
+        <EditText
+            android:id="@+id/et_tgl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tanggal"
+            android:inputType="textCapSentences"/>
+        <EditText
+            android:id="@+id/et_sesi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sesi"
+            android:inputType="textCapSentences"/>
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/simpan"/>
+    </LinearLayout>
+
+</LinearLayout>
